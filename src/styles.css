@@ -1,0 +1,79 @@
+:root {
+  /* Neutrals */
+  --color-gray-900: #232323;
+  --color-gray-700: #6c6c6c;
+  --color-gray-500: #9c9c9c;
+  --color-gray-400: #b2b3b9;
+  --color-gray-300: #c9c9c9;
+  --color-gray-200: #ededed;
+  --color-gray-100: #e0e0e0;
+  --color-gray-000: #f8f8f8;
+
+  /* Blue */
+  --color-blue-900: #242edb;
+  --color-blue-700: #367aff;
+  --color-blue-500: #797fea;
+  --color-blue-100: #ebf3ea;
+  --color-blue-500-hover: #6b72e8;
+
+  --color-red: #f11010;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-bg-app: #f9f9f9;
+  --color-text-app: #0f172a;
+
+  /* Products */
+  --products-title-primary: #202020;
+  --products-heading: #333333;
+  --products-search-bg: #f3f3f3;
+  --products-search-placeholder: #999999;
+  --products-divider: #e2e2e2;
+  --products-border-soft: #ececeb;
+  --products-thumb-placeholder: #c4c4c4;
+  --products-pagination-bar: #3c538e;
+  --products-pagination-muted: #969b9f;
+  --products-cell-primary: #161919;
+  --products-cell-secondary: #222222;
+  --products-toolbar-icon: #515161;
+  --products-surface-hover: #fafafa;
+
+  /* Overlays */
+  --overlay-blue-900-12: rgb(36 46 219 / 0.12);
+  --overlay-white-00: rgb(255 255 255 / 0);
+  --overlay-white-12: rgb(255 255 255 / 0.12);
+  --overlay-black-03: rgb(0 0 0 / 0.03);
+  --overlay-black-04: rgb(0 0 0 / 0.04);
+  --overlay-black-06: rgb(0 0 0 / 0.06);
+  --overlay-black-08: rgb(0 0 0 / 0.08);
+  --overlay-black-12: rgb(0 0 0 / 0.12);
+  --overlay-black-17: rgb(0 0 0 / 0.17);
+  --overlay-black-30: rgb(0 0 0 / 0.3);
+  --overlay-gray-00: rgb(35 35 35 / 0);
+  --overlay-gray-03: rgb(35 35 35 / 0.03);
+  --overlay-gray-06: rgb(35 35 35 / 0.06);
+  --overlay-blue: rgb(54 122 255 / 0.03);
+
+  --shadow-products-search: 0px 2px 12px var(--overlay-black-04);
+  --shadow-products-main: 0px 4px 24px var(--overlay-black-06);
+  --shadow-products-dialog: 0px 20px 50px var(--overlay-black-12);
+
+  --font-cairo: 'Cairo', system-ui, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-open-sans: 'Open Sans', system-ui, sans-serif;
+  --font-roboto: 'Roboto', system-ui, sans-serif;
+  --font-roboto-mono: 'Roboto Mono', ui-monospace, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-app);
+  font-family: var(--font-inter);
+  color: var(--color-text-app);
+}

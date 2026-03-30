@@ -1,0 +1,1 @@
+export { useProductsPage } from './useProductsPage';
