@@ -107,8 +107,8 @@ export function ProductsToolbar({
           }
           onClick={onOpenCreate}
           sx={{
-            width: '42px',
-            minWidth: '147px',
+            height: '42px',
+            width: '147px',
             gap: '15px',
             borderRadius: '8px',
             px: '20px',
